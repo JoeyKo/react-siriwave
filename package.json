@@ -2,7 +2,7 @@
   "name": "react-siriwave",
   "version": "1.0.0",
   "description": "React version of siriwave.js",
-  "main": "src/index.js",
+  "main": "src/siriwave.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
