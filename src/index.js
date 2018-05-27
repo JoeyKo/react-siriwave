@@ -1,5 +1,12 @@
-import SiriWave from './components/SiriWave';
+import React, { Component } from 'react';
 
-module.export = {
-  SiriWave
+class SiriWave extends Component {
+
+  render() {
+    return (
+      <button>siriwave</button>
+    )
+  }
 }
+
+export default SiriWave;

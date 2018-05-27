@@ -2,10 +2,12 @@
   "name": "react-siriwave",
   "version": "1.0.1",
   "description": "React version of siriwave.js",
-  "main": "lib/siriwave.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir lib"
+    "build": "./node_modules/.bin/babel -d lib/ src/",
+    "watch": "babel --watch -d lib/ src/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -28,8 +30,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "webpack": "^4.9.1"
+    "react-dom": "^16.0.0"
   },
   "bugs": {
     "url": "https://github.com/JoeyKo/React-SiriWave/issues"
