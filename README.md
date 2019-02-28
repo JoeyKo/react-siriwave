@@ -1,12 +1,12 @@
 # React-SiriWave
 Based on [SiriWave.js](http://kopiro.github.io/siriwave/)
 
-## Usage
-- npm
+## Install
+npm
 ```
 npm install --save react-siriwave
 ```
-- yarn 
+yarn 
 ```
 yarn add react-siriwave
 ```
