@@ -2,9 +2,15 @@
 Based on [SiriWave.js](http://kopiro.github.io/siriwave/)
 
 ## Usage
+- npm
 ```
 npm install --save react-siriwave
 ```
+- yarn 
+```
+yarn add react-siriwave
+```
+
 ## Constructor options
 
 | Key        | Type          | Description                                                            | Default    | Required |
