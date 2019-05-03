@@ -1,6 +1,6 @@
 {
   "name": "react-siriwave",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "React version of siriwave.js",
   "main": "build/index.js",
   "scripts": {
