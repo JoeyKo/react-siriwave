@@ -13,6 +13,16 @@ yarn
 yarn add react-siriwave
 ```
 
+## Usage
+```javascript
+import Siriwave from 'react-siriwave';
+
+// ...
+<Siriwave />
+// ...
+
+```
+
 ## Constructor options
 
 | Key        | Type          | Description                                                            | Default    | Required |
