@@ -1,6 +1,5 @@
 # React-SiriWave
 
-[![](https://img.shields.io/travis/JoeyKo/react-siriwave.svg)](https://travis-ci.org/JoeyKo/react-siriwave)
 [![NPM Package](https://img.shields.io/npm/v/react-siriwave.svg)](https://www.npmjs.com/package/react-siriwave)
 
 ## Install
@@ -38,3 +37,4 @@ import Siriwave from 'react-siriwave';
 | autostart  | Bool          | Decide wether start the animation on boot.                             | false      | no       |
 | pixelDepth | Number        | Number of step (in pixels) used when drawed on canvas.                 | 0.02       | no       |
 | lerpSpeed  | Number        | Lerp speed to interpolate properties.                                  | 0.01       | no       |
+| curveDefinition  | ICurveDefinition[]        | Override definition of the curves                    | null       | no       |
