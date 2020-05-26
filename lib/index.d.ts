@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+declare type StyleTypes = 'ios' | 'ios9';
 interface PlayerProps {
     width?: number;
     height?: number;
-    style?: 'ios' | 'ios9';
+    style?: StyleTypes;
     ratio?: number;
     speed?: number;
     amplitude?: number;
