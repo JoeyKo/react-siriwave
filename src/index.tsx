@@ -5,11 +5,12 @@ import SiriWave from 'siriwave';
 // type ICurveDefinition {
 
 // }
+type StyleTypes = 'ios' | 'ios9';
 
 interface PlayerProps {
   width?: number,
   height?: number,
-  style?: 'ios' | 'ios9',
+  style?: StyleTypes,
   ratio?: number,
   speed?: number,
   amplitude?: number,
@@ -56,8 +57,8 @@ class Siriwave extends Component<PlayerProps> {
 
   componentDidMount() {
     this.siriWave = new SiriWave({
-      container: this.siriRef.current,
       ...this.props,
+      container: this.siriRef.current,
     });
 
     this.siriWave.start();

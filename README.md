@@ -26,7 +26,6 @@ import Siriwave from 'react-siriwave';
 
 | Key        | Type          | Description                                                            | Default    | Required |
 | ---------- | ------------- | ---------------------------------------------------------------------- | ---------- | -------- |
-| container  | DOMElement    | The DOM container where the DOM canvas element will be added.          | null       | yes      |
 | style      | "ios", "ios9" | The style of the wave.                                                 | "ios"      | no       |
 | ratio      | Number        | Ratio of the display to use. Calculated by default.                    | calculated | no       |
 | speed      | Number        | The speed of the animation.                                            | 0.2        | no       |
