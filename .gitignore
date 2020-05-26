@@ -6,6 +6,9 @@
 # production
 /dist
 /vscode
+/lib
+/es
+/coverage
 
 # misc
 .DS_Store

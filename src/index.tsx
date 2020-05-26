@@ -56,8 +56,8 @@ class Siriwave extends Component<PlayerProps> {
 
   componentDidMount() {
     this.siriWave = new SiriWave({
-      ...this.props,
       container: this.siriRef.current,
+      ...this.props,
     });
 
     this.siriWave.start();

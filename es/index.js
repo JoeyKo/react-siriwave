@@ -39,9 +39,9 @@ var Siriwave = function (_Component) {
   };
 
   _proto.componentDidMount = function componentDidMount() {
-    this.siriWave = new SiriWave(_extends(_extends({}, this.props), {}, {
+    this.siriWave = new SiriWave(_extends({
       container: this.siriRef.current
-    }));
+    }, this.props));
     this.siriWave.start();
   };
 
