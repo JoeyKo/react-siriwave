@@ -22,6 +22,8 @@ import Siriwave from 'react-siriwave';
 
 ```
 
+## [Demo](https://codesandbox.io/s/quirky-williams-m7ip0)
+
 ## Constructor options
 
 | Key        | Type          | Description                                                            | Default    | Required |
