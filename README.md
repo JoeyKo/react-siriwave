@@ -1,6 +1,7 @@
 # React-SiriWave
 
 [![NPM Package](https://img.shields.io/npm/v/react-siriwave.svg)](https://www.npmjs.com/package/react-siriwave)
+[![Build Status](https://travis-ci.org/JoeyKo/react-siriwave.svg?branch=master)](https://travis-ci.org/JoeyKo/react-siriwave)
 
 ## Install
 npm
