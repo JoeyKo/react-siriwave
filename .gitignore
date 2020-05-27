@@ -6,7 +6,9 @@
 # production
 /dist
 /vscode
-/lib
+
+# build
+/build
 /es
 /coverage
 
