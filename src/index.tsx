@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// @ts-ignore
 import SiriWave from 'siriwave';
 
 // type ICurveDefinition {
@@ -45,13 +44,15 @@ class Siriwave extends Component<PlayerProps> {
   }
 
   shouldComponentUpdate(nextProps: PlayerProps) {
-    if ('amplitude' in nextProps && nextProps.amplitude !== this.props.amplitude) {
+    if (('amplitude' in nextProps && nextProps.amplitude !== this.props.amplitude) 
+      || ('speed' in nextProps && nextProps.speed !== this.props.speed)) {
       return true;
     }
     return false;
   }
 
   componentDidUpdate() {
+    this.siriWave.setSpeed(this.props.speed);
     this.siriWave.setAmplitude(this.props.amplitude);
   }
 
@@ -65,7 +66,21 @@ class Siriwave extends Component<PlayerProps> {
   }
 
   componentWillUnmount() {
-    this.siriWave.stop()
+    this.siriWave.dispose()
+  }
+
+  /**
+   * Start the animation
+   */
+  public start() {
+    this.siriWave.start();
+  }
+
+  /**
+   * Stop the animation
+   */
+  public stop() {
+    this.siriWave.stop();
   }
 
   render() {
