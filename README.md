@@ -1,7 +1,6 @@
 # React-SiriWave
 
 [![NPM Package](https://img.shields.io/npm/v/react-siriwave.svg)](https://www.npmjs.com/package/react-siriwave)
-[![Build Status](https://travis-ci.org/JoeyKo/react-siriwave.svg?branch=master)](https://travis-ci.org/JoeyKo/react-siriwave)
 
 ## Install
 npm
@@ -29,7 +28,7 @@ import Siriwave from 'react-siriwave';
 
 | Key        | Type          | Description                                                            | Default    | Required |
 | ---------- | ------------- | ---------------------------------------------------------------------- | ---------- | -------- |
-| style      | "ios", "ios9" | The style of the wave.                                                 | "ios"      | no       |
+| theme      | "ios", "ios9" | The curve style of the wave.                                                 | "ios"      | no       |
 | ratio      | Number        | Ratio of the display to use. Calculated by default.                    | calculated | no       |
 | speed      | Number        | The speed of the animation.                                            | 0.2        | no       |
 | amplitude  | Number        | The amplitude of the complete wave-form.                               | 1          | no       |
