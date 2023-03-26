@@ -39,4 +39,4 @@ import Siriwave from 'react-siriwave';
 | pixelDepth | Number        | Number of step (in pixels) used when drawed on canvas.                 | 0.02       | no       |
 | lerpSpeed  | Number        | Lerp speed to interpolate properties.                                  | 0.01       | no       |
 | curveDefinition  | ICurveDefinition[]        | Override definition of the curves                    | null       | no       |
-| siriwave  | (siriwave: Siriwave) => void       | Callback function to get the siriwave instance                    | null       | no       |
+| onInit  | (siriwave: Siriwave) => void       | Callback function to get the siriwave instance                    | null       | no       |
