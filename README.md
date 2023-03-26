@@ -35,7 +35,8 @@ import Siriwave from 'react-siriwave';
 | frequency  | Number        | The frequency of the complete wave-form. Only available in style "ios" | 6          | no       |
 | color      | String        | Color of the wave. Only available in style "ios"                       | "#fff"     | no       |
 | cover      | Bool          | The `canvas` covers the entire width or height of the container        | false      | no       |
-| autostart  | Bool          | Decide wether start the animation on boot.                             | false      | no       |
+| autostart  | Bool          | Decide wether start the animation on boot.                             | true      | no       |
 | pixelDepth | Number        | Number of step (in pixels) used when drawed on canvas.                 | 0.02       | no       |
 | lerpSpeed  | Number        | Lerp speed to interpolate properties.                                  | 0.01       | no       |
 | curveDefinition  | ICurveDefinition[]        | Override definition of the curves                    | null       | no       |
+| siriwave  | (siriwave: Siriwave) => void       | Callback function to get the siriwave instance                    | null       | no       |
