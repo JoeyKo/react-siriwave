@@ -58,6 +58,7 @@ const ReactSiriwave = (props: IReactSiriwaveProps) => {
     props.speed,
     props.theme,
     props.width,
+    props,
   ])
   return <div ref={siriwaveRef}></div>
 }
