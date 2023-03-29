@@ -1,4 +1,4 @@
-# React-SiriWave
+# React-Siriwave
 
 [![NPM Package](https://img.shields.io/npm/v/react-siriwave.svg)](https://www.npmjs.com/package/react-siriwave)
 
